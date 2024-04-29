@@ -1,18 +1,28 @@
-@media (max-width:500px){
+
 body{
     background-color: aliceblue;
     font-family: "brush-script-std", sans-serif;
     color: black;
+    display: block;
+    margin: 1rem auto;
+    
     
 }
 h1{
     display: none;
 }
+h2{
+    text-align: center;
+}
 header img{
     width: 200px;
+    display: block;
+    margin: 1rem auto;
 }
 main img{
     width: 350px;
+    display: block;
+    margin: 1rem auto;
 }
 p{
     text-align: center;
@@ -21,6 +31,47 @@ p{
 footer a{
     color: black;
     background-color:rgb(231, 147, 189);
+
    
 }
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 3rem;
+    
+    
 }
+@media (min-width:1000px){
+main img{
+    height: 400px;
+    width: unset;
+    display: inline;
+}
+p{
+    max-width: 800px;
+    font-size: 18pt;
+    margin: 0 auto 2rem;
+    
+}
+header img{ width: 300px;
+}
+footer a{
+    font-size: 18pt;
+}
+body{
+    text-align: center;
+
+
+}
+h2{
+    font-size: 30px
+}
+
+
+
+
+}
+
+
+
